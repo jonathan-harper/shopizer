@@ -48,7 +48,7 @@ jobs:
       - name: Checkout Project
         uses: actions/checkout@v2
       - name: Build and Run Contrast Scan
-        working-directory: shopizer
+#         working-directory: shopizer
         run: ./mvnw --batch-mode -Pcontrast-scan verify
         env:
           CONTRAST__API__URL: https://teamserver-staging.contsec.com/Contrast/api
