@@ -208,7 +208,7 @@
 	</build>
 
 	<packaging>war</packaging>
-	<profiles>
+<!-- 	<profiles>
 		<profile>
 			<id>contrast-scan</id>
 			<build>
@@ -235,5 +235,5 @@
 				</plugins>
 			</build>
 		</profile>
-	</profiles>
+	</profiles> -->
 </project>
