@@ -70,5 +70,5 @@ jobs:
     
     - uses: actions/upload-artifact@v2
       with:
-        name: java-sarif
-        path: ${{ env.RUNNER_WORKSPACE }}/results/java.sarif
+        name: java.sarif
+        path: ../results/java.sarif
