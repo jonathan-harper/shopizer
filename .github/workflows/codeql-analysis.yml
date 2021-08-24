@@ -71,4 +71,4 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: java.sarif
-        path: ../results/java.sarif
+        path: /home/runner/work/shopizer/results/java.sarif
