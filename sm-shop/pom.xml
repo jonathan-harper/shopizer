@@ -226,6 +226,7 @@
 						</executions>
 						<configuration>
 							<waitForResults>False</waitForResults>
+							<projectName>${project.parent.artifactId}-${project.artifactId}</projectName>
 						</configuration>
 					</plugin>
 				</plugins>
