@@ -224,6 +224,9 @@
 								</goals>
 							</execution>
 						</executions>
+						<configuration>
+							<waitForResults>False</waitForResults>
+						</configuration>
 					</plugin>
 				</plugins>
 			</build>
