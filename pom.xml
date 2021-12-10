@@ -320,7 +320,7 @@
 			<dependency>
 				<groupId>com.amazonaws</groupId>
 				<artifactId>aws-java-sdk-s3</artifactId>
-				<version>1.11.640</version>
+				<version>1.12.128</version>
 			</dependency>
 
 			<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ses -->
@@ -357,7 +357,7 @@
 			<dependency>
 				<groupId>com.stripe</groupId>
 				<artifactId>stripe-java</artifactId>
-				<version>19.5.0</version>
+				<version>20.91.0</version>
 			</dependency>
 
 			<!-- Braintree -->
