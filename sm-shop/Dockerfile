@@ -4,7 +4,7 @@ ADD ./SALESMANAGER.h2.db /usr/src/project/
 COPY ./files/ /usr/src/project/files/
 WORKDIR /usr/src/project
 
-FROM tomcat:9.0.10-jre8
+FROM tomcat:9-jre8
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 RUN mkdir -p /usr/local/tomcat/files
